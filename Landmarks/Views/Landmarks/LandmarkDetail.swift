@@ -46,6 +46,10 @@ struct LandmarkDetail: View {
                 Text(landmark.description)
             }
             .padding()
+            
+            Button(/*@START_MENU_TOKEN@*/"Button"/*@END_MENU_TOKEN@*/) {
+                
+            }
         }
         .navigationTitle(landmark.name)
         .navigationBarTitleDisplayMode(.inline)
